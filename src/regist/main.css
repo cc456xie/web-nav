@@ -1,0 +1,46 @@
+
+.box{
+	/* display: flex; */
+	overflow: hidden;
+	width: 400px;
+	min-height: 350px;
+	padding-top: 20px;
+	margin: 150px auto;
+	border-radius: 3%;
+	background-color: #f6def6; /* 不支持线性的时候显示 */
+	background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+	box-shadow: 2px 2px 5px 0 rgba(0,0,0,.2);
+}
+input{
+	display: block;
+	margin: 20px auto 2px auto;
+	width: 60%;
+	height: 30px;
+	border:none;
+	border-radius: 5px;
+	outline: none;
+}
+.tips{
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+}
+.button{
+	margin: 20px auto;
+	width: 80%;
+	height: 25px;
+	display: block;
+	line-height: 25px;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+}
+#submit{
+	pointer-events: none;
+}
+p{
+	text-align: center;
+	font-size: 12px;
+	margin: 0;
+	color: #e7305b;
+}
